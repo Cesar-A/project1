@@ -126,3 +126,11 @@ h3:before {
 h3:after {
   margin: 5px 0 0 10px;
 }
+#pic1{
+    margin: 300px 0px 0px 200px;
+    color:red;
+}
+#pic2{
+    margin: 200px 0px 0px 200px;
+    color:red;
+}
