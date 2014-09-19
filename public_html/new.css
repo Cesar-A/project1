@@ -18,11 +18,11 @@ html {
  text-align:center;
  font-size: 24px;
  border-style:solid;
- height: 200px;
+ 
  width: 800px;
  border-color:black;
  border-width: 2px;
- margin: 120px 50px 10px 300px;
+ margin: 0px auto;
  color:red;
  background-color:white;
  padding-left: 10px;
@@ -132,11 +132,17 @@ h3:after {
 }
 
 #pic1{
-    margin: 300px 0px 0px 200px;
+    margin: 0 auto;
     color:red;
 }
 
 #pic2{
     margin: 200px 0px 0px 200px;
     color:red;
+}
+@media screen and (max-width:801px){
+    #sec1{
+        
+        width:100%;
+    }
 }
