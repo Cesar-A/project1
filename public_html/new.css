@@ -1,34 +1,29 @@
-
-
 html {
   height:5px;
  
 }
+
 #html {
-  height:100%;
-  background-color:red;
-}#html3 {
-  height:100%;
-  background-color:green;
-}
-#html4 {
   height:100%;
   background-color:teal;
 }
-#html5 {
+#html3 {
   height:100%;
-  background-color:palegreen;
+  background-color:darkblue;
 }
+
 #sec1{
  text-align:center;
  font-size: 24px;
  border-style:solid;
- height: 200px;
+ 
  width: 800px;
  border-color:black;
  border-width: 2px;
- margin: 120px 50px 10px 300px;
- color:red; 
+ margin: 0px auto;
+ color:red;
+ background-color:white;
+ padding-left: 10px;
 }
 
 nav {
@@ -60,7 +55,7 @@ nav ul li a {
 nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
-  color: purple;
+  color:red;
 }
 
 
@@ -69,10 +64,10 @@ nav ul li a:hover {
   font-family: 'FontAwesome', sans-serif;
 }
 
-body {
-  background: #e6e6d8 url('https://dl.dropboxusercontent.com/s/t0gu051d08sei65/bg-retro-noise.png');
-  color: #121212;
-}
+//body {
+  //background: #e6e6d8 url('https://dl.dropboxusercontent.com/s/t0gu051d08sei65/bg-retro-noise.png');
+ //  color: #121212;
+//}
 
 section.text {
   position: absolute;
@@ -129,6 +124,29 @@ h3:before {
   margin: 5px 0 0 -110px;
 }
 
+
 h3:after {
   margin: 5px 0 0 10px;
+}
+
+#pic1{
+    margin: 0px auto;
+    color:red;
+}
+
+#pic2{
+    margin: 0px auto;
+    color: red;
+}
+@media screen and (max-width:801px){
+    #sec1{
+        
+        width:99%;
+    }
+    #pic1{
+        width:100%;
+    }
+    #pic2{
+        width:100%;
+    }
 }
